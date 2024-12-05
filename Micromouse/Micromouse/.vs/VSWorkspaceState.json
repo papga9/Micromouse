@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\IR Sensors",
+    "\\IR Sensors\\irsensor",
+    "\\IR Sensors\\irsensor\\src",
+    "\\MicroMouse",
+    "\\MicroMouse\\include",
+    "\\MicroMouse\\include\\hal",
+    "\\MicroMouse\\lib",
+    "\\MicroMouse\\lib\\irsensor",
+    "\\MicroMouse\\lib\\irsensor\\include",
+    "\\MicroMouse\\lib\\irsensor\\src",
+    "\\MicroMouse\\src"
+  ],
+  "SelectedNode": "\\MicroMouse\\include\\components.h",
+  "PreviewInSolutionExplorer": false
+}
