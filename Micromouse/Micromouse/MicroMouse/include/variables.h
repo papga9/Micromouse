@@ -46,6 +46,12 @@ struct Variables {
     int16_t motor_left;
     int16_t motor_right;
     bool    motor_brake;
+
+    double Setpoint = 0;
+    double Input = ir_left_filt - ir_right_filt;
+    double Output;
+
+    double Kp = 0.0005, Ki = 0, Kd = 0;
 };
 
 } // namespace MM

@@ -36,7 +36,7 @@ void MM::update_outputs()
     /* Write your code here */
 
 
-    /*switch (vars.goHere){
+    switch (vars.goHere){
         case GO:
              comp.motor_left.motorGoP(10);
              comp.motor_right.motorGoP(10);
@@ -62,34 +62,34 @@ void MM::update_outputs()
             comp.motor_right.motorStop();
         break;
     }
-    */
+    
 
 ///This is for testing  TODO delete
-   switch (vars.goHere){
-        case GO:
-             turnLedOff();
-        break;
+//    switch (vars.goHere){
+//         case GO:
+//              turnLedOff();
+//         break;
 
-        case TURN_LEFT:
-            turnLedOff();
-             digitalWrite(DEBUG_LED_1, HIGH);
-        break;
+//         case TURN_LEFT:
+//             turnLedOff();
+//              digitalWrite(DEBUG_LED_1, HIGH);
+//         break;
 
-        case TURN_RIGHT:
-            turnLedOff();
-             digitalWrite(DEBUG_LED_2, HIGH);
-        break;
+//         case TURN_RIGHT:
+//             turnLedOff();
+//              digitalWrite(DEBUG_LED_2, HIGH);
+//         break;
 
-        case STOP:
-            turnLedOff();
-             digitalWrite(DEBUG_LED_2, HIGH);
-             digitalWrite(DEBUG_LED_1, HIGH);
-        break;
+//         case STOP:
+//             turnLedOff();
+//              digitalWrite(DEBUG_LED_2, HIGH);
+//              digitalWrite(DEBUG_LED_1, HIGH);
+//         break;
 
-        default:
+//         default:
             
-        break;
-    }
+//         break;
+//     }
 
     LOG_INFO("GOmode: %d", vars.goHere);
     
